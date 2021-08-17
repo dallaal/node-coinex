@@ -1,0 +1,70 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_level:
+        description: 'Release increment level. (major, minor, patch)'
+        required: true
+        default: 'patch'
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out TS Project Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+
+      - name: Install Node.js dependencies
+        run: npm i
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Build project
+        run: npm run build
+
+      - name: Git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check if input is one of patch, minor or major
+        run: |
+          if [[ "${{ github.event.inputs.release_level }}" != "patch" && "${{ github.event.inputs.release_level }}" != "minor" && "${{ github.event.inputs.release_level }}" != "major" ]]; then
+            echo "Release increment level must be one of patch, minor or major"
+            exit 1
+          fi
+
+      - name: Bump new version
+        run: npm run release -- --release-as ${{ github.event.inputs.release_level }}
+
+      - name: Push git tag
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          tags: true
+          force: true
+
+      - name: Store current tag
+        run: echo "TAG_VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+
+      - name: Create a GitHub release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.TAG_VERSION }}
+          release_name: Release ${{ env.TAG_VERSION }}
+          body_path: CHANGELOG.md
+
+      - name: Push to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          registry: https://npm.pkg.github.com
