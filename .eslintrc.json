@@ -20,6 +20,7 @@
     "max-len": "off",
     "no-restricted-syntax": "off",
     "object-curly-newline": "off",
+    "quote-props": "warn",
 
     "import/prefer-default-export": "off",
 
