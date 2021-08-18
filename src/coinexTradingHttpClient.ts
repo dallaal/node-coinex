@@ -1,27 +1,13 @@
 import axios, { AxiosInstance } from 'axios';
 import * as qs from 'qs';
-import * as crypto from 'crypto-js';
 
+import Coinex from './coinex';
 import { AquireOrderStatusResponse, CancelAllOrdersResponse, CancelMultipleOrderResponse, CancelOrderResponse, IOCOrderResponse, LimitOrderResponse, MarketOrderResponse, StopLimitOrderResponse } from './coinexInfo';
 
-export default class CoinexTrading {
+export default class CoinexTrading extends Coinex {
   private client: AxiosInstance = axios.create({
     baseURL: 'https://api.coinex.com/v1/order/',
   });
-
-  private sign(body: { [key:string]: any }, secretKey: string): string {
-    /* eslint-disable */
-    const ordered: { [key: string] : any } = Object.keys(body).sort().reduce(
-      (obj: { [key: string] : any }, key: string) => {
-        obj[key] = body[key];
-        return obj;
-      },
-      {},
-      );
-    /* eslint-enable */
-    ordered.secret_key = secretKey;
-    return crypto.MD5(qs.stringify(ordered)).toString().toUpperCase();
-  }
 
   public async limitOrder(
     accessId: string,

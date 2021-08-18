@@ -1,6 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
 import * as qs from 'qs';
-import * as crypto from 'crypto-js';
 import { AcquireAllMarketDataResponse, AcquireKLineDataResponse, AcquireLatestTransactionDataResponse, AcquireMarketInformationResponse, AcquireMarketListResponse, AcquireMarketStatisticsResponse, AcquireSingleMarketInformationResponse } from './coinexInfo';
 
 export default class CoinexMarket {

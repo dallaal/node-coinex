@@ -1,27 +1,13 @@
 import axios, { AxiosInstance } from 'axios';
 import * as qs from 'qs';
-import * as crypto from 'crypto-js';
 
+import Coinex from './coinex';
 import { GetDepositAddressResponse, InquireAccountInfoResponse, InquireWithdrawalListResponse, WithdrawResponse } from './coinexInfo';
 
-export default class CoinexAccount {
+export default class CoinexAccount extends Coinex {
   private client: AxiosInstance = axios.create({
     baseURL: 'https://api.coinex.com/v1/',
   });
-
-  private sign(body: { [key:string]: any }, secretKey: string): string {
-    /* eslint-disable */
-    const ordered: { [key: string] : any } = Object.keys(body).sort().reduce(
-      (obj: { [key: string] : any }, key: string) => {
-        obj[key] = body[key];
-        return obj;
-      },
-      {},
-      );
-    /* eslint-enable */
-    ordered.secret_key = secretKey;
-    return crypto.MD5(qs.stringify(ordered)).toString().toUpperCase();
-  }
 
   public async inquireAccountInfo(
     accessId: string,
@@ -107,7 +93,7 @@ export default class CoinexAccount {
   public async getDepositAddress(
     accessId: string,
     secretKey: string,
-    smartContractName?: number,
+    smartContractName?: string,
     isSplit?: number,
   ): Promise<GetDepositAddressResponse> {
     const body: { [key: string] : any } = {
