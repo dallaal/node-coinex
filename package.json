@@ -4,7 +4,7 @@
   "description": "This is template for dallaal typescript packages",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "release": "standard-version",
