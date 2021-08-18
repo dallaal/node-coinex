@@ -1,10 +1,10 @@
 {
-  "name": "@dallaal/package-name",
+  "name": "@dallaal/node-coinex",
   "version": "0.0.0",
   "description": "This is template for dallaal typescript packages",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "release": "standard-version",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dallaal/package-name.git"
+    "url": "git+https://github.com/dallaal/node-coinex.git"
   },
   "author": "Dallaal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dallaal/package-name/issues"
+    "url": "https://github.com/dallaal/node-coinex/issues"
   },
   "files": [
     "dist/**/*"
   ],
-  "homepage": "https://github.com/dallaal/package-name#readme",
+  "homepage": "https://github.com/dallaal/node-coinex#readme",
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.12",
@@ -50,5 +50,11 @@
     "skip": {
       "commit": true
     }
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/qs": "^6.9.7",
+    "axios": "^0.21.1",
+    "qs": "^6.5.2"
   }
 }
