@@ -1,5 +1,5 @@
 {
-  "name": "@dallaal/package-name",
+  "name": "@dallaal/node-coinex",
   "version": "0.0.0",
   "description": "This is template for dallaal typescript packages",
   "main": "./dist/index.js",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dallaal/package-name.git"
+    "url": "git+https://github.com/dallaal/node-coinex.git"
   },
   "author": "Dallaal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dallaal/package-name/issues"
+    "url": "https://github.com/dallaal/node-coinex/issues"
   },
   "files": [
     "dist/**/*"
   ],
-  "homepage": "https://github.com/dallaal/package-name#readme",
+  "homepage": "https://github.com/dallaal/node-coinex#readme",
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.12",
