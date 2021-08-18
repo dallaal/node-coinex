@@ -272,84 +272,84 @@ export type AcquireMarketInformationResponse = {
 };
 
 export type AcquireSingleMarketInformationResponse = {
-  code: number,
-  data: {
-    name: string,
-    min_amount: string,
-    maker_fee_rate: string,
-    taker_fee_rate: string,
-    pricing_name: string,
-    pricing_decimal: number,
-    trading_name: string,
-    trading_decimal: number,
+  'code': number,
+  'data': {
+    'name': string,
+    'min_amount': string,
+    'maker_fee_rate': string,
+    'taker_fee_rate': string,
+    'pricing_name': string,
+    'pricing_decimal': number,
+    'trading_name': string,
+    'trading_decimal': number,
   },
-  message: string,
+  'message': string,
 };
 
 export type AcquireLatestTransactionDataResponse = {
-  code: number,
-  data: [
+  'code': number,
+  'data': [
     {
-      id: number,
-      type: string,
-      price: string,
-      amount: string,
-      date: number,
-      date_ms: number,
+      'id': number,
+      'type': string,
+      'price': string,
+      'amount': string,
+      'date': number,
+      'date_ms': number,
     },
   ],
-  message: string,
+  'message': string,
 };
 
 export type AcquireKLineDataResponse = {
-  code: number,
-  data: [
+  'code': number,
+  'data': [
     {
-      time: number,
-      opening: string,
-      closing: string,
-      highest: string,
-      lowest: string,
-      volume: string,
-      amount: string,
-      market: string,
+      'time': number,
+      'opening': string,
+      'closing': string,
+      'highest': string,
+      'lowest': string,
+      'volume': string,
+      'amount': string,
+      'market': string,
     },
   ],
-  message: string,
+  'message': string,
 };
 
 export type AcquireMarketStatisticsResponse = {
-  date: number,
-  ticker: {
-    vol: string,
-    low: string,
-    open: string,
-    high: string,
-    last: string,
-    buy: string,
-    buy_amount: string,
-    sell: string,
-    sell_amount: string,
+  'date': number,
+  'ticker': {
+    'vol': string,
+    'low': string,
+    'open': string,
+    'high': string,
+    'last': string,
+    'buy': string,
+    'buy_amount': string,
+    'sell': string,
+    'sell_amount': string,
   }
 };
 
 export type AcquireAllMarketDataResponse = {
-  code: number,
-  data: {
-    date: number,
-    ticker: {
+  'code': number,
+  'data': {
+    'date': number,
+    'ticker': {
       [key: string]: {
-        vol: string,
-        low: string,
-        open: string,
-        high: string,
-        last: string,
-        buy: string,
-        buy_amount: string,
-        sell: string,
-        sell_amount: string,
+        'vol': string,
+        'low': string,
+        'open': string,
+        'high': string,
+        'last': string,
+        'buy': string,
+        'buy_amount': string,
+        'sell': string,
+        'sell_amount': string,
       },
     }
   }
-  message: string,
+  'message': string,
 };
