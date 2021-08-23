@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[coinexInfo.ts:336](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L336)
+[coinexInfo.ts:336](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L336)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:304](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L304)
+[coinexInfo.ts:304](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L304)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:289](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L289)
+[coinexInfo.ts:289](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L289)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:257](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L257)
+[coinexInfo.ts:257](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L257)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:251](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L251)
+[coinexInfo.ts:251](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L251)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:321](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L321)
+[coinexInfo.ts:321](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L321)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:274](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L274)
+[coinexInfo.ts:274](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L274)
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:164](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L164)
+[coinexInfo.ts:164](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L164)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:157](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L157)
+[coinexInfo.ts:157](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L157)
 
 ___
 
@@ -254,7 +254,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:123](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L123)
+[coinexInfo.ts:123](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L123)
 
 ___
 
@@ -293,7 +293,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:95](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L95)
+[coinexInfo.ts:95](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L95)
 
 ___
 
@@ -316,7 +316,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:239](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L239)
+[coinexInfo.ts:239](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L239)
 
 ___
 
@@ -355,7 +355,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:67](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L67)
+[coinexInfo.ts:67](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L67)
 
 ___
 
@@ -373,7 +373,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:192](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L192)
+[coinexInfo.ts:192](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L192)
 
 ___
 
@@ -391,7 +391,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:220](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L220)
+[coinexInfo.ts:220](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L220)
 
 ___
 
@@ -430,7 +430,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:1](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L1)
+[coinexInfo.ts:1](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L1)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:37](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L37)
+[coinexInfo.ts:37](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L37)
 
 ___
 
@@ -490,7 +490,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:29](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L29)
+[coinexInfo.ts:29](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L29)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-[coinexInfo.ts:203](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexInfo.ts#L203)
+[coinexInfo.ts:203](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexInfo.ts#L203)
 
 ## Variables
 
@@ -528,7 +528,7 @@ ___
 
 #### Defined in
 
-[coinexMarketInfo.ts:80](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketInfo.ts#L80)
+[coinexMarketInfo.ts:80](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketInfo.ts#L80)
 
 ___
 
@@ -5981,4 +5981,4 @@ ___
 
 #### Defined in
 
-[coinexMarketInfo.ts:86](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketInfo.ts#L86)
+[coinexMarketInfo.ts:86](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketInfo.ts#L86)

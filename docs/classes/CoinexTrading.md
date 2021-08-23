@@ -48,7 +48,7 @@ Coinex.constructor
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:8](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L8)
+[coinexTradingHttpClient.ts:8](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L8)
 
 ## Methods
 
@@ -76,7 +76,7 @@ Coinex.constructor
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:128](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L128)
+[coinexTradingHttpClient.ts:128](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L128)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:241](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L241)
+[coinexTradingHttpClient.ts:241](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L241)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:217](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L217)
+[coinexTradingHttpClient.ts:217](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L217)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:191](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L191)
+[coinexTradingHttpClient.ts:191](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L191)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:163](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L163)
+[coinexTradingHttpClient.ts:163](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L163)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:12](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L12)
+[coinexTradingHttpClient.ts:12](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L12)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:92](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L92)
+[coinexTradingHttpClient.ts:92](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L92)
 
 ___
 
@@ -254,7 +254,7 @@ Coinex.sign
 
 #### Defined in
 
-[coinex.ts:5](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinex.ts#L5)
+[coinex.ts:5](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinex.ts#L5)
 
 ___
 
@@ -285,4 +285,4 @@ ___
 
 #### Defined in
 
-[coinexTradingHttpClient.ts:51](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexTradingHttpClient.ts#L51)
+[coinexTradingHttpClient.ts:51](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexTradingHttpClient.ts#L51)

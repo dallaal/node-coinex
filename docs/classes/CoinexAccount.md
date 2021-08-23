@@ -44,7 +44,7 @@ Coinex.constructor
 
 #### Defined in
 
-[coinexAccountHttpClient.ts:8](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexAccountHttpClient.ts#L8)
+[coinexAccountHttpClient.ts:8](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexAccountHttpClient.ts#L8)
 
 ## Methods
 
@@ -67,7 +67,7 @@ Coinex.constructor
 
 #### Defined in
 
-[coinexAccountHttpClient.ts:93](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexAccountHttpClient.ts#L93)
+[coinexAccountHttpClient.ts:93](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexAccountHttpClient.ts#L93)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[coinexAccountHttpClient.ts:12](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexAccountHttpClient.ts#L12)
+[coinexAccountHttpClient.ts:12](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexAccountHttpClient.ts#L12)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[coinexAccountHttpClient.ts:65](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexAccountHttpClient.ts#L65)
+[coinexAccountHttpClient.ts:65](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexAccountHttpClient.ts#L65)
 
 ___
 
@@ -138,7 +138,7 @@ Coinex.sign
 
 #### Defined in
 
-[coinex.ts:5](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinex.ts#L5)
+[coinex.ts:5](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinex.ts#L5)
 
 ___
 
@@ -164,4 +164,4 @@ ___
 
 #### Defined in
 
-[coinexAccountHttpClient.ts:32](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexAccountHttpClient.ts#L32)
+[coinexAccountHttpClient.ts:32](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexAccountHttpClient.ts#L32)

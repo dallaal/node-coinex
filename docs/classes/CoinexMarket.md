@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:6](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L6)
+[coinexMarketHttpClient.ts:6](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L6)
 
 ## Methods
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:111](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L111)
+[coinexMarketHttpClient.ts:111](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L111)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:64](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L64)
+[coinexMarketHttpClient.ts:64](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L64)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:45](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L45)
+[coinexMarketHttpClient.ts:45](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L45)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:21](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L21)
+[coinexMarketHttpClient.ts:21](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L21)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:10](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L10)
+[coinexMarketHttpClient.ts:10](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L10)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:98](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L98)
+[coinexMarketHttpClient.ts:98](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L98)
 
 ___
 
@@ -162,4 +162,4 @@ ___
 
 #### Defined in
 
-[coinexMarketHttpClient.ts:32](https://github.com/dallaal/node-coinex/blob/ded8e0c/src/coinexMarketHttpClient.ts#L32)
+[coinexMarketHttpClient.ts:32](https://github.com/dallaal/node-coinex/blob/ba2ea2e/src/coinexMarketHttpClient.ts#L32)
