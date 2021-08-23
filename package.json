@@ -1,6 +1,6 @@
 {
   "name": "@dallaal/node-coinex",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "This is template for dallaal typescript packages",
   "main": "./dist/index.js",
   "scripts": {
@@ -45,11 +45,6 @@
     "typedoc": "^0.21.5",
     "typedoc-plugin-markdown": "^3.10.4",
     "typescript": "^4.2.4"
-  },
-  "standard-version": {
-    "skip": {
-      "commit": true
-    }
   },
   "dependencies": {
     "@types/crypto-js": "^4.0.2",
